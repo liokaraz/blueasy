@@ -1,0 +1,25 @@
+.input{
+  &-trans {
+    background-color: transparent;
+    width: 80%;
+    height: 60px;
+    border: solid $white 2px;
+    color: $white;
+    font-size: $section-content-size;
+    $font-family: $font-template;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  &-area {
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    border: solid $white 2px;
+    color: $white;
+    font-size: $section-content-size;
+    $font-family: $font-template;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

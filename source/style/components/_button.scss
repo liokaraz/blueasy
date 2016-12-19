@@ -1,0 +1,31 @@
+.button {
+  &-sky {
+    color: $white;
+    text-align: center;
+    background-color: $blue-sea;
+    height: 58px;
+    text-transform: uppercase;
+    width: 30%;
+    border: 0;
+    cursor: pointer;
+    font-size: $section-content-size;
+    font-weight: bold;
+  }
+  &-sky:active {
+    background-color: $white;
+    color: $blue-sea;
+  }
+  &-sky:focus {
+    outline: none;
+  }
+  &-black {
+    color: $black;
+    border: solid $black 1px;
+    text-transform: uppercase;
+    font-family: $font-template;
+    font-weight: bold;
+    font-size: $section-content-size;
+    width: 37%;
+    height: 45px;
+  }
+}

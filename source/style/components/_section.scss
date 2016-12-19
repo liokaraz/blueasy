@@ -1,0 +1,68 @@
+.section {
+  &-primary {
+    padding: 80px 80px 80px 0;
+    background-color: $fine-black;
+    color: $white;
+  }
+  &-info {
+    padding: 80px 80px 80px 0;
+    background-color: $blue-sea;
+    color: $white;
+  }
+  &-light {
+    padding: 80px 80px 80px 0;
+    background-color: $white;
+    color: $black;
+  }
+  &-img {
+    padding: 80px 80px 80px 0;
+    background-image: url('../image/portofolio/img-back.jpg');
+    color: $white;
+  }
+  &-contact {
+    padding: 80px 80px 80px 0;
+    background-image: url('../image/contact/contact.jpg');
+    color: $white;
+  }
+  &-title {
+    text-transform: uppercase;
+    font-size: $section-title-size;
+    margin-bottom: 51px;
+    font-weight: lighter;
+    font-family: $font-template;
+  }
+  &-content {
+    font-size: $section-content-size;
+    font-family: $font-template;
+    &-one {
+        font-size: $section-content-one-size;
+    }
+  }
+  &-categorie {
+      text-transform: uppercase;
+      font-size: $section-categorie-size;
+      font-weight: light;
+  }
+  &-contact__label {
+    text-transform: uppercase;
+    font-family: $font-template;
+    font-size: $section-content-size;
+  }
+  &__portofolio-img {
+    content: '+';   
+    background-color: $black-light; 
+    width: 270px;
+    height: 271px;
+    margin-bottom: 6px;
+    color: $white;
+    font-size: 72px;
+    z-index: 1;
+    position: relative;
+  }
+  &__portofolio-img:before {
+    content: "+";
+    position: absolute;
+    padding: 80px 0 0 110px;
+    z-index: 0;
+  }
+}
